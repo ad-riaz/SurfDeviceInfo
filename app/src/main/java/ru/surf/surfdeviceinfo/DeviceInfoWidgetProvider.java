@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.util.DisplayMetrics;
 import android.widget.RemoteViews;
 
-import ru.surf.androiddevicedresser.R;
+import ru.surf.surfdeviceinfo.R;
 import ru.surf.surfdeviceinfo.service.NotificationService;
 
 public class DeviceInfoWidgetProvider extends AppWidgetProvider {

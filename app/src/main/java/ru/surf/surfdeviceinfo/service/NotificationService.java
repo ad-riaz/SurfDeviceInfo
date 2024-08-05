@@ -12,7 +12,7 @@ import android.util.DisplayMetrics;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import ru.surf.androiddevicedresser.R;
+import ru.surf.surfdeviceinfo.R;
 
 public class NotificationService extends Service {
 

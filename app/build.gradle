@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ru.surf.androiddevicedresser'
+    namespace 'ru.surf.surfdeviceinfo'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.surf.androiddevicedresser"
+        applicationId "ru.surf.surfdeviceinfo"
         minSdk 28
         targetSdk 33
         versionCode 1

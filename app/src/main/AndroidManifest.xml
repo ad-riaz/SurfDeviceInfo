@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidDeviceDresser"
+        android:theme="@style/Theme.SurfDeviceInfo"
         tools:targetApi="31">
 
         <service
