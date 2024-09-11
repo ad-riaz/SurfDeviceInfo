@@ -66,8 +66,7 @@ public class NotificationService extends Service {
         double heightInches = heightPixels / ydpi;
         double screenDiagonal = Math.sqrt(Math.pow(widthInches, 2) + Math.pow(heightInches, 2));
 
-        String deviceInfo = manufacturer.replace(" ", "") + model.replace(" ", "") + "\n" +
-                String.format("%.2f", screenDiagonal) + "\" " + widthPixels + "x" + heightPixels + "\n" +
+        String deviceInfo = String.format("%.2f", screenDiagonal) + "\" " + widthPixels + "x" + heightPixels + "\n" +
                 "Android " + osVersion;
 
         return new NotificationCompat.Builder(this, CHANNEL_ID)

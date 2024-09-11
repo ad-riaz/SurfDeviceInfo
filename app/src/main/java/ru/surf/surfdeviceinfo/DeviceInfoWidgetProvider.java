@@ -46,7 +46,7 @@ public class DeviceInfoWidgetProvider extends AppWidgetProvider {
 
             // Set text in the widget
             views.setTextViewText(R.id.full_device_name, manufacturer + " " + model);
-            views.setTextViewText(R.id.device_name_no_spaces, deviceNameNoSpaces);
+//            views.setTextViewText(R.id.device_name_no_spaces, deviceNameNoSpaces);
             views.setTextViewText(R.id.screen_size, String.format("%.2f", screenDiagonal) + "\" " + widthPixels + "x" + heightPixels);
             views.setTextViewText(R.id.os_version, "Android " + osVersion);
 
